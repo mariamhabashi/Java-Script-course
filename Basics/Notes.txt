@@ -1,0 +1,9 @@
+Data Types :
+________
+Primitive : اساسية 
+String >> "Mariam"
+Number >> 10 , 10.2 (No int , double , float >> all is Number)
+Boolean >> true , false
+null >> nothing
+________
+
