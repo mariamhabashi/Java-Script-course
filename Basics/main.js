@@ -91,3 +91,33 @@ let score=10;
  */
 console.log(score++);//will print score first then increment it >> will print 10 then it will be 11
 console.log(++score);//will increment the score by 1 first then print it >> score=11 then print 11
+
+//#####################################################
+/*                    4) Convert String to Number
+when you use any math operation except '+' the strings will automatically be converted to numbers.
+*/
+console.log('5'+'4'); //54 string+string = concatinate
+console.log('5'-'4'); //1 (convert '5' and '4' to numbers 5 and 4 then print 5-4)
+console.log('5'/'ahmed'); //NaN >>> Number
+console.log(typeof NaN); //number
+//What if I wanna use + ?
+console.log( +'5' + +'4' );//9 >> put +before each string to convert it to number
+console.log(-'5');//-5
+console.log(+'ahmed');//NaN
+console.log(+true);//1
+console.log(+false);//0
+console.log(+undefined);//NaN
+console.log(+null);//0
+//#####################################################
+/*                    4) Convert string to number
+1.we use Number('') to convert string to numbers
+2.parseInt('') 
+*/
+console.log(typeof +'4');//number
+console.log(typeof Number('4'));//number
+//Here's a problem
+console.log(+'4 ahmed');//NaN
+console.log(Number('4 ahmed'))//NaN
+//Solution:
+console.log(parseInt('4 ahmed')) //4
+console.log(parseFloat('3.4 ahmed')) //3.4
