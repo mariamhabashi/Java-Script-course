@@ -121,3 +121,16 @@ console.log(Number('4 ahmed'))//NaN
 //Solution:
 console.log(parseInt('4 ahmed')) //4
 console.log(parseFloat('3.4 ahmed')) //3.4
+//#####################################################
+/*                    4) Convert number to string
+1.String()
+2.variablename.toString()
+number..toString() or (number).toString
+*/
+let M=100;
+let N=100;
+console.log(typeof M);//Number
+console.log(typeof String(M));//string
+console.log(typeof N.toString())//string
+console.log(typeof 100..toString());//string
+console.log(typeof (100).toString());//string
